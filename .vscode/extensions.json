@@ -1,0 +1,14 @@
+{
+  "recommendations": [
+    "ms-python.mypy-type-checker",
+    "ms-python.python",
+    "charliermarsh.ruff",
+    "eamodio.gitlens",
+    "donjayamanne.githistory",
+    "mhutchie.git-graph",
+    "saikou9901.evilinspector",
+    "bierner.markdown-mermaid",
+    "github.copilot",
+    "shardulm94.trailing-spaces"
+  ]
+}

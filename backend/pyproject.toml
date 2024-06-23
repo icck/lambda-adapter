@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "backend"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.111.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+indent-width = 4
+line-length = 119
+select = ["ALL"]
+exclude = [
+    ".ruff_cache"
+]
+
+ignore = [
+    "D",
+    "ANN201", # missing-return-type-public-function:
+    "T201",   # print関数は許す
+    "INP001", # __init__.pyを必須としない
+]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false # list等の最後の要素の後のコンマを削除しない。
+line-ending = "lf" # "auto" | "lf" | "cr-lf" | "native"
