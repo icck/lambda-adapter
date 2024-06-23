@@ -1,5 +1,5 @@
 export const config = {
-  accountId: "499313726685",
+  accountId: "xxxxxxxxxxxx",
   accountName: "icck-adapter",
   region: "ap-northeast-1",
 };
